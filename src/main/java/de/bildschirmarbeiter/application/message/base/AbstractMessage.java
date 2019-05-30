@@ -2,9 +2,8 @@ package de.bildschirmarbeiter.application.message.base;
 
 import java.util.UUID;
 
-import javax.annotation.Nonnull;
-
 import de.bildschirmarbeiter.application.message.api.Message;
+import org.jetbrains.annotations.NotNull;
 import org.osgi.annotation.versioning.ConsumerType;
 
 @ConsumerType
@@ -16,24 +15,24 @@ public abstract class AbstractMessage implements Message {
 
     private final Object _source;
 
-    public AbstractMessage(@Nonnull final Object source) {
+    public AbstractMessage(@NotNull final Object source) {
         _source = source;
     }
 
     @Override
-    @Nonnull
+    @NotNull
     public Long timestamp() {
         return _timestamp;
     }
 
     @Override
-    @Nonnull
+    @NotNull
     public UUID uuid() {
         return _uuid;
     }
 
     @Override
-    @Nonnull
+    @NotNull
     public Object source() {
         return _source;
     }

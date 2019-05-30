@@ -1,0 +1,13 @@
+Bundle-Description: ${project.description}
+
+Bundle-DocURL: ${project.organization.url}
+
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+
+Bundle-Vendor: ${project.organization.name}
+
+-exportcontents: ${packages;VERSIONED}
+
+-removeheaders:\
+  Include-Resource,\
+  Private-Package

@@ -2,20 +2,19 @@ package de.bildschirmarbeiter.application.message.api;
 
 import java.util.UUID;
 
-import javax.annotation.Nonnull;
-
+import org.jetbrains.annotations.NotNull;
 import org.osgi.annotation.versioning.ConsumerType;
 
 @ConsumerType
 public interface Message {
 
-    @Nonnull
+    @NotNull
     Long timestamp();
 
-    @Nonnull
+    @NotNull
     UUID uuid();
 
-    @Nonnull
+    @NotNull
     Object source();
 
 }
