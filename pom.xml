@@ -7,11 +7,11 @@
     <groupId>de.bildschirmarbeiter.application</groupId>
     <artifactId>application-parent</artifactId>
     <version>3</version>
-    <relativePath/>
+    <relativePath />
   </parent>
 
   <artifactId>de.bildschirmarbeiter.application.message</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
 
   <name>Bildschirmarbeiter Application Message</name>
   <description>${project.name}</description>
@@ -22,7 +22,7 @@
     <connection>scm:git:git://github.com/bildschirmarbeiter/de.bildschirmarbeiter.application.message.git</connection>
     <developerConnection>scm:git:git@github.com:bildschirmarbeiter/de.bildschirmarbeiter.application.message.git</developerConnection>
     <url>https://github.com/bildschirmarbeiter/de.bildschirmarbeiter.application.message/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>de.bildschirmarbeiter.application.message-0.0.2</tag>
   </scm>
 
   <build>
