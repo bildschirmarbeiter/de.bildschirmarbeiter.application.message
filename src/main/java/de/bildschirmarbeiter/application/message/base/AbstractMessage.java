@@ -9,7 +9,7 @@ import org.osgi.annotation.versioning.ConsumerType;
 @ConsumerType
 public abstract class AbstractMessage implements Message {
 
-    private final long _timestamp = System.nanoTime();
+    private final long _timestamp = System.currentTimeMillis();
 
     private final UUID _uuid = UUID.randomUUID();
 
